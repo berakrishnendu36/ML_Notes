@@ -134,6 +134,8 @@ Some of the metrics are:
 
 - **Precision**: It is how often the model predicted the event to be positive and it turned out to be true. The ratio of correctly predicted positive events to the total predicted positive events. It is given by: TP/(TP+FP).
 
+- **Recall**: It quantifies the number of correct positive predictions made out of all positive predictions that could have been made. It is given by: TP/(TP+FN).
+
 - **Accuracy**: It is how often did the model predict the event correctly. The ratio of correctly predicted events to the total events. It is given by: (TP+TN)/(TP+TN+FP+FN).
 
 - **F1 Score**: It is the harmonic mean of precision and recall. It is given by: 2*(Recall * Precision) / (Recall + Precision).
